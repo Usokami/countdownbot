@@ -40,7 +40,7 @@ async def ny(ctx):
         await msg.edit(
             content=
             f"⏳ **Countdown ปีใหม่**\n"
-            f"🗓 เหลือ {d} day {h:02d}:{m:02d}:{s:02d}"
+            f"🗓 เหลือ {d} day {h:02d} hour {m:02d} min {s:02d} sec"
         )
 
         await asyncio.sleep(sleep_time)
