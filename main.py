@@ -30,7 +30,7 @@ async def ny(ctx):
             )
             break
 
-        sleep_time = 10 if total > 600 else 1
+        sleep_time = 8 if total > 120 else 1
 
         d = total // 86400
         h = (total % 86400) // 3600
